@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
+  m_Name: NPSettings
+  m_EditorClassIdentifier: 
+  m_lastOpenedDateString: 3/15/2017 12:00:00 AM
+  m_applicationSettings:
+    m_supportedFeatures:
+      m_usesAddressBook: 0
+      m_usesBilling: 1
+      m_usesCloudServices: 0
+      m_usesGameServices: 1
+      m_mediaLibrary:
+        value: 0
+        usesCamera: 1
+        usesPhotoAlbum: 1
+      m_usesNetworkConnectivity: 0
+      m_notificationService:
+        value: 1
+        usesLocalNotification: 1
+        usesRemoteNotification: 0
+      m_usesSharing: 1
+      m_usesTwitter: 0
+      m_usesWebView: 0
+    m_iOS:
+      m_storeIdentifier: 1188678963
+      m_addressBookUsagePermissionDescription: 
+      m_cameraUsagePermissionDescription: 
+      m_photoAlbumUsagePermissionDescription: 
+    m_android:
+      m_storeIdentifier: com.gamepie.splitup
+    m_supportedAddonServices:
+      m_usesSoomlaGrow: 0
+      m_usesOneSignal: 0
+  m_utilitySettings:
+    m_rateMyApp:
+      m_isEnabled: 0
+      m_title: Rate My App
+      m_message: If you enjoy using Native Plugin would you mind taking a moment to
+        rate it? It wont take more than a minute. Thanks for your support
+      m_showFirstPromptAfterHours: 2
+      m_successivePromptAfterHours: 6
+      m_successivePromptAfterLaunches: 5
+      m_rateItButtonText: Rate It Now
+      m_remindMeLaterButtonText: Remind Me Later
+      m_dontAskButtonText: No, Thanks
+  m_billingSettings:
+    m_products:
+    - m_name: No ads
+      m_description: Remove all ads
+      m_isConsumable: 0
+      m_price: 0
+      m_productIDs:
+      - m_platform: 0
+        m_value: com.gamepie.splitup.noads
+      - m_platform: 1
+        m_value: com.gamepie.splitup.noads
+      - m_platform: 2
+        m_value: com.gamepie.splitup.noads
+      m_developerPayload: 
+      m_iosProductId: 
+      m_androidProductId: 
+    m_iOS:
+      m_supportsReceiptValidation: 1
+      m_validateUsingServerURL: 
+    m_android:
+      m_publicKey: MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArBaQNGcURDLpUVhVZWzXtrF9Qgnwy4Id0tav9laNB5kKzXqWTl3Oie0gX787oPr3PQtvxKfm4O8Ui7X1kCKNu7cWWBydlcG3bIV84hwgOCLz500XBO9DPDB/9LTHsm0EjJSiBB/B+5FZrGPdloWL7KxDdnzffjhGNF13O1R54m+skKHam/VSRyT+hzJqRlp8a5a5VTkAuCj2ulxyI4ZkfEfe5xiQSmT7kNlnUEUBWXt38O8w5mnoFGsvGUIIilK2aCHn9pALoYocrhHVLgZuzpe78iwBNnbBFdHYGXV7bP6JBUy8+fNcMedMctV92PrCZhW7wfPrH5P+adhRvPgBfwIDAQAB
+  m_notificationSettings:
+    m_iOS:
+      m_userInfoKey: user_info
+    m_android:
+      m_senderIDs: []
+      m_allowVibration: 1
+      m_whiteSmallIcon: {fileID: 0}
+      m_colouredSmallIcon: {fileID: 0}
+      m_tickerTextKey: ticker_text
+      m_contentTextKey: content_text
+      m_contentTitleKey: content_title
+      m_userInfoKey: user_info
+      m_tagKey: tag
+  m_gameServicesSettings:
+    m_leaderboardMetadataCollection:
+    - m_globalID: Best Scores
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAQ
+      - m_platform: 0
+        m_value: topscore
+    m_achievementMetadataCollection:
+    - m_globalID: 1st Death
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 0
+    - m_globalID: Scored 5
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 0
+    - m_globalID: Scored 15
+      m_platformIDs:
+      - m_platform: 1
+        m_value: CgkIyvWdtJMBEAIQBA
+      m_noOfSteps: 0
+    - m_globalID: Scored 50
+      m_platformIDs:
+      - m_platform: 1
+        m_value: 'CgkIyvWdtJMBEAIQBQ '
+      m_noOfSteps: 0
+    - m_globalID: Scored 100
+      m_platformIDs:
+      - m_platform: 1
+        m_value: 'CgkIyvWdtJMBEAIQBg '
+      m_noOfSteps: 0
+    m_iOS:
+      m_showDefaultAchievementCompletionBanner: 1
+    m_android:
+      m_playServicesApplicationID: 39569554122
+      m_serverClientID: 
+      m_showDefaultErrorDialogs: 1
+    m_achievementIDCollection: []
+    m_leaderboardIDCollection: []

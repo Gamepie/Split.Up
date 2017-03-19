@@ -1,0 +1,281 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 42938266, guid: de72a6d2da64d114d95e3c5a01cfaec5, type: 3}
+  m_Name: PlayMakerGlobals
+  m_EditorClassIdentifier: 
+  variables:
+    floatVariables:
+    - useVariable: 1
+      name: Added BG speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0.01
+    - useVariable: 1
+      name: Added BoulesSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0.05
+    - useVariable: 1
+      name: BG speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: BoulesSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Delta Split
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: FPS
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Gizmo speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: SplitInSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 3.5
+    - useVariable: 1
+      name: SplitOutSpeed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 2.5
+    - useVariable: 1
+      name: Touch Time
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    intVariables:
+    - useVariable: 1
+      name: ActualScoreInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Game Sessions LT
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: HighscoreInt
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    boolVariables:
+    - useVariable: 1
+      name: Adsboughtfsm
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Is array over?
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: Is first Launch
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 1
+    stringVariables:
+    - useVariable: 1
+      name: Achievedwhat?
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: ActualScoreString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: BoughtrestoreString
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: FPS_as String
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: GameState
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
+    - useVariable: 1
+      name: Highscore
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    vector2Variables:
+    - useVariable: 1
+      name: Test
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0}
+    vector3Variables:
+    - useVariable: 1
+      name: BGPatternPos
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: BGPosVector
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: BgtoCreatevector
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: 0}
+    - useVariable: 1
+      name: Speed
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {x: 0, y: 0, z: -10}
+    colorVariables: []
+    rectVariables: []
+    quaternionVariables: []
+    gameObjectVariables:
+    - useVariable: 1
+      name: AdsManagerGO
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: BG Target Var
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: BGPatterns
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: BGtoCreateActual
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Collided Object
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: FPS Counter
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Patterns
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: Rate Manager obj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: TwitObj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
+      name: s_managerobj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    objectVariables:
+    - useVariable: 1
+      name: BGSprite
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      typeName: UnityEngine.Sprite
+      value: {fileID: 21300000, guid: ac5e621707ca845a890be0442f26704d, type: 3}
+    materialVariables: []
+    textureVariables: []
+    arrayVariables: []
+    enumVariables: []
+    categories:
+    - 
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  events:
+  - 'State: Game'
+  - Split & Play
+  - Add 1 Score
+  - DestructCreate
+  - Add Vector 3
+  - Clicked
+  - Test Clamp
+  - Bought
+  - Changed!
+  - Click Up
+  - Unpause
+  - Pause
+  - Collision Detected
+  - Zaeubri
+  - restored
+  - Restored
+  - nonrestored
+  - Didnotworkatall
+  - Notvalidated

@@ -1,0 +1,52 @@
+{
+  "version": "7.13.0-r1",
+  "group": "Mediation/AdMob",
+  "patches": [],
+  "libs": [
+    "Fyber/iOS/mediation/AdMob/Fyber_AdMob_7.13.0-r1.embeddedframework/Fyber_AdMob_7.13.0-r1.framework:<group>"
+  ],
+  "librarysearchpaths": [],
+  "frameworks": [
+    "AdSupport.framework:weak",
+    "AudioToolbox.framework",
+    "AVFoundation.framework",
+    "CoreGraphics.framework",
+    "CoreMedia.framework",
+    "CoreTelephony.framework",
+    "JavaScriptCore.framework",
+    "MessageUI.framework",
+    "StoreKit.framework:weak",
+    "SystemConfiguration.framework",
+    "SafariServices.framework",
+    "MobileCoreServices.framework"
+  ],
+  "frameworksearchpaths": [
+    "Fyber/iOS/mediation/AdMob/Fyber_AdMob_7.13.0-r1.embeddedframework/"
+  ],
+  "headerpaths": [],
+  "files": [],
+  "folders": [
+    "Fyber/iOS/mediation/AdMob/Fyber_AdMob_7.13.0-r1.embeddedframework/Resources"
+  ],	
+  "excludes": [],
+  "linkers": [],
+  "plist": [
+    "<plist>
+      <key>name</key>
+      <string>AdMob</string>
+      <key>settings</key>
+      <dict>
+      <!-- Uncomment this section if you want to override the server side configuration properties
+        <key>SPAdMobInterstitialAdUnitId</key>
+        <string></string>
+        <key>SPAdMobBannerAdUnitId</key>
+        <string></string>
+        <key>SPAdMobIsCOPPACompliant</key>
+        <true/>
+        <key>SPAdMobTestDevices</key>
+        <array>
+        </array>
+      -->
+      </dict>
+    </plist>"]
+}

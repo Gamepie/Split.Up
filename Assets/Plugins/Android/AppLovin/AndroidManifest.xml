@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.fyber.mediation.applovin"
+    android:versionCode="1"
+    android:versionName="6.3.0-r1" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="23" />
+
+    <!-- These permissions are mandatory to run the AppLovin SDK -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- These permissions are strongly recommended and will result in higher performance -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application>
+        <activity android:name="com.applovin.adview.AppLovinInterstitialActivity" />
+        <activity android:name="com.applovin.adview.AppLovinConfirmationActivity" />
+		<meta-data android:name="applovin.sdk.key" android:value="7QfbJ9RJor93fuN4O21BbkKudP2sTBUfc8GwIiE5XN8BFWGeTIr90A1eZ4U6Fznt62oPl0UHOdTe9lHi17s2Hu"/>
+    </application>
+
+</manifest>
