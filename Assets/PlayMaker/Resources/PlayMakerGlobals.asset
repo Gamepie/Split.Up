@@ -279,3 +279,5 @@ MonoBehaviour:
   - nonrestored
   - Didnotworkatall
   - Notvalidated
+  - isbought
+  - purchased

@@ -12,6 +12,8 @@ TagManager:
   - Twitter
   - Rate Manager
   - s_manager
+  - noads_go
+  - restore_go
   layers:
   - Default
   - TransparentFX

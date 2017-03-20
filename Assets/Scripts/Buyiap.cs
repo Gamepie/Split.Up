@@ -4,6 +4,7 @@ using UnityEngine;
 using VoxelBusters.Utility;
 using VoxelBusters.NativePlugins;
 using HutongGames.PlayMaker;
+using UnityEngine.SceneManagement;
 
 
 namespace VoxelBusters.NativePlugins {
@@ -12,7 +13,8 @@ public class Buyiap : MonoBehaviour {
 		public PlayMakerFSM buttonFSM;
 		public PlayMakerFSM Restoreobj;
 		public bool Adsbought = false;
-
+		private PlayMakerFSM gonoads;
+		private PlayMakerFSM gorestore;
 	// Use this for initialization
 
 
@@ -83,6 +85,13 @@ private void OnDisable ()
 			{
 				// Show alert message that item is already purchased
 				buttonFSM.SendEvent ("Zaeubri");
+				Scene scene = SceneManager.GetActiveScene ();
+				if (scene.name == "Game") {
+					GameObject noadsgo = GameObject.FindGameObjectWithTag ("noads_go");
+					PlayMakerFSM gonoads = PlayMakerFSM.FindFsmOnGameObject (noadsgo, "FSM");
+					gonoads.SendEvent ("isbought");
+				}
+
 				Debug.Log ("Bought");
 				return;
 			}
@@ -104,6 +113,12 @@ private void OnDisable ()
 				{
 					if (_transaction.TransactionState == eBillingTransactionState.PURCHASED)
 					{
+						Scene scene = SceneManager.GetActiveScene ();
+						if (scene.name == "Game") {
+							GameObject noadsgo = GameObject.FindGameObjectWithTag ("noads_go");
+							PlayMakerFSM gonoads = PlayMakerFSM.FindFsmOnGameObject (noadsgo, "FSM");
+							gonoads.SendEvent ("purchased");
+						}
 
 						Adsbought = true;
 						theFSM.FsmVariables.GetFsmBool ("Adsboughtfsm").Value = Adsbought;
@@ -133,11 +148,24 @@ private void OnDisable ()
 					Debug.Log("Error = "                    + _eachTransaction.Error.GetPrintableString());
 					if (_eachTransaction.VerificationState == eBillingTransactionVerificationState.SUCCESS) {
 						// Insert code to restore product associated with this transaction
+						Scene scene = SceneManager.GetActiveScene ();
+						if (scene.name == "Game") {
+							GameObject restorego = GameObject.FindGameObjectWithTag ("restore_go");
+							PlayMakerFSM gorestore = PlayMakerFSM.FindFsmOnGameObject (restorego, "FSM");
+							gorestore.SendEvent ("restored");
+						}
+
 						Adsbought = true;
 						theFSM.FsmVariables.GetFsmBool ("Adsboughtfsm").Value = Adsbought;
 						Restoreobj.SendEvent ("Restored");
 					} else if (_eachTransaction.VerificationState == eBillingTransactionVerificationState.FAILED) {
 						//something went wrong!
+						Scene scene = SceneManager.GetActiveScene ();
+						if (scene.name == "Game") {
+							GameObject restorego = GameObject.FindGameObjectWithTag ("restore_go");
+							PlayMakerFSM gorestore = PlayMakerFSM.FindFsmOnGameObject (restorego, "FSM");
+							gorestore.SendEvent ("failedrestored");
+						}
 						Restoreobj.SendEvent ("nonrestored");
 					} else {
 						Restoreobj.SendEvent ("Notvalidated");
