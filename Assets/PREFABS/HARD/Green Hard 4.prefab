@@ -123,6 +123,7 @@ GameObject:
   - component: {fileID: 4150573072415392}
   - component: {fileID: 212782886130770900}
   - component: {fileID: 114780555455130120}
+  - component: {fileID: 58720345045128990}
   m_Layer: 0
   m_Name: G_Dot 1 (1)
   m_TagString: SpwnedObject
@@ -322,6 +323,7 @@ GameObject:
   - component: {fileID: 4407282943192890}
   - component: {fileID: 212000160876180102}
   - component: {fileID: 114354446754444936}
+  - component: {fileID: 58313707891063678}
   m_Layer: 0
   m_Name: G_Dot 1
   m_TagString: SpwnedObject
@@ -675,6 +677,34 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &58313707891063678
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1808292463602646}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1484375
+--- !u!58 &58720345045128990
+CircleCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1211493106337370}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.1484375
 --- !u!60 &60173609934681024
 PolygonCollider2D:
   m_ObjectHideFlags: 1
