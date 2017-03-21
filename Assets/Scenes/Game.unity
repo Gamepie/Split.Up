@@ -7368,7 +7368,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1496119376
+  randomSeed: -1385046934
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -13613,7 +13613,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.2784314, g: 0.2784314, b: 0.2784314, a: 1}
+  m_BackGroundColor: {r: 0.16862746, g: 0.18431373, b: 0.19607845, a: 1}
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
