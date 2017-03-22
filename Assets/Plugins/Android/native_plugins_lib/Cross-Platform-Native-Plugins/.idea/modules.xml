@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Cross-Platform-Native-Plugins.iml" filepath="$PROJECT_DIR$/Cross-Platform-Native-Plugins.iml" />
+      <module fileurl="file://$PROJECT_DIR$/NativePlugins/NativePlugins.iml" filepath="$PROJECT_DIR$/NativePlugins/NativePlugins.iml" />
+    </modules>
+  </component>
+</project>
