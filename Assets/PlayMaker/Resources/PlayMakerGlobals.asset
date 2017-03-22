@@ -111,6 +111,18 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 1
+    - useVariable: 1
+      name: Menu Sound
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
+    - useVariable: 1
+      name: menumusic
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 0
     stringVariables:
     - useVariable: 1
       name: Achievedwhat?
@@ -148,6 +160,12 @@ MonoBehaviour:
       showInInspector: 0
       networkSync: 0
       value: 0
+    - useVariable: 1
+      name: device
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: 
     vector2Variables:
     - useVariable: 1
       name: Test
@@ -258,7 +276,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - 'State: Game'
   - Split & Play
