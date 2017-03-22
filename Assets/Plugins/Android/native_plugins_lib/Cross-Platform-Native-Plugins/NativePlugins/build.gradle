@@ -1,0 +1,46 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 23
+    buildToolsVersion "22.0.1"
+
+    defaultConfig {
+        minSdkVersion 9
+        targetSdkVersion 23
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    useLibrary 'org.apache.http.legacy'
+
+    sourceSets {
+        com {
+            java.srcDirs = ['src/java']
+        }
+    }
+}
+
+task jar(type: Jar, dependsOn: 'assembleRelease') {
+    FileTree tree = fileTree(dir: 'build/intermediates/classes/release').matching {
+        exclude "android", "com/google", "com/voxelbusters/androidnativeplugin" // relative to the file tree's root directory
+    }
+
+    from tree
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(dir: 'libs/twitter', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-auth:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile files('libs/in-app-purchasing.jar')
+}
