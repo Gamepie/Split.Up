@@ -156,7 +156,7 @@ GameObject:
   - component: {fileID: 60029914996243512}
   m_Layer: 0
   m_Name: G_Line Square 2
-  m_TagString: Untagged
+  m_TagString: SpwnedObject
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
