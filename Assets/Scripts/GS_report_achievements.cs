@@ -15,10 +15,12 @@ namespace HutongGames.PlayMaker.Actions
 	public class GS_report_achievements : FsmStateAction
 
 	{
-			
+			private double PROGRESS_PERCENTAGE = 100d;
 			[Tooltip("A string used to identify the achievement.")]
+
 			private Achievement	m_achievement;
-			public	FsmString	identifier;
+			public string identifier;
+			public	FsmString	identifieri;
 
 
 			public	FsmString	dateTimeFormat;
@@ -37,12 +39,14 @@ namespace HutongGames.PlayMaker.Actions
 			public override void OnEnter ()
 			{
 
-				m_achievement	= NPBinding.GameServices.CreateAchievementWithGlobalID(identifier.Value);
+				m_achievement	= NPBinding.GameServices.CreateAchievementWithGlobalID(identifier);
 				m_achievement.ReportProgress (OnReportProgressFinished);
+				NPBinding.GameServices.ReportProgressWithGlobalID (identifier, PROGRESS_PERCENTAGE, OnReportProgressFinished);
+
 			}
 
-			private void OnReportProgressFinished (bool _success, string _error)
-			{
+			private void OnReportProgressFinished (bool _success, string _error){
+
 				if (_success)
 				{
 					// Update properties
@@ -63,7 +67,7 @@ namespace HutongGames.PlayMaker.Actions
 				}
 
 				Finish();
-			}
+				}
 
 		}
 	}

@@ -35,7 +35,7 @@ namespace HutongGames.PlayMaker.Actions
 
 			public override void OnEnter ()
 			{
-			
+
 				NPBinding.GameServices.LocalUser.Authenticate(OnAuthenticationFinished);
 
 			}
