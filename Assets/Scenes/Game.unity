@@ -13907,6 +13907,48 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bda7f9afd49b2b54d8f022a1599fb3ba, type: 2}
   m_IsPrefabParent: 0
+--- !u!1001 &445222943
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.5656745
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4966138238235132, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: cd2783a573b764ffab9b9c37b024d1c5, type: 2}
+  m_IsPrefabParent: 0
 --- !u!1 &477819845
 GameObject:
   m_ObjectHideFlags: 0
@@ -20339,7 +20381,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 199799495
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: f185c27db7eb644f0b80131ec154f141, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 00b54870b01e54a85945bd1b58ac684c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -20369,7 +20411,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Size: {x: 3.9062498, y: 1.4687499}
+  m_Size: {x: 3.9062498, y: 1.4140624}
 --- !u!114 &915319713
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23460,7 +23502,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1193047827
 Transform:
   m_ObjectHideFlags: 0
@@ -30002,7 +30044,7 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 36
+  preFillCount: 39
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
@@ -30044,6 +30086,9 @@ MonoBehaviour:
   - {fileID: 1708425914260090, guid: ef29e00ea69664d6c9ea3880eda81964, type: 2}
   - {fileID: 1909630122448466, guid: 11d3259b2ab304967b0a7c83ee0b0cf5, type: 2}
   - {fileID: 1000339580394096, guid: cc20f8f85f0164c7da55a277ab334eb0, type: 2}
+  - {fileID: 1133923446313676, guid: fd2a5f960a2dd42ec8fb167166c42d17, type: 2}
+  - {fileID: 1372018502762606, guid: 53ca56bff13ff45158e8e81587778c85, type: 2}
+  - {fileID: 1834093554547226, guid: 7f40df62dd5d64a9d86f34b56661f54e, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
@@ -30210,7 +30255,7 @@ MonoBehaviour:
   contentPreviewMaxRows: 10
   preFillType: 0
   preFillObjectTypeIndex: 0
-  preFillCount: 26
+  preFillCount: 36
   preFillKeyList: []
   preFillBoolList: 
   preFillColorList: []
@@ -30242,6 +30287,16 @@ MonoBehaviour:
   - {fileID: 1370158995453080, guid: c915fa68d75d54c01be2e3e9cd1c4524, type: 2}
   - {fileID: 1643576682479594, guid: 899edbbd594bf42a2899e75fd6d130e0, type: 2}
   - {fileID: 1470828155670228, guid: e97956ad197324131adbd1a94e2f6c18, type: 2}
+  - {fileID: 1546545825036112, guid: 379b6510e47ed4d10ac29020859d0108, type: 2}
+  - {fileID: 1539159882165968, guid: d93a973e7882c4cec887bb90b58ac244, type: 2}
+  - {fileID: 1021980117160238, guid: 60e056c079fff493bbaf2160af6cde20, type: 2}
+  - {fileID: 1978774904442480, guid: 6d478267243c040f285b7cb47c860974, type: 2}
+  - {fileID: 1026072548380304, guid: 4a65bd51171204e58a7bf417eaeb502c, type: 2}
+  - {fileID: 1475720341404176, guid: 66733f2d6b8ff48dd9eba69f84d05f9d, type: 2}
+  - {fileID: 1444384158028600, guid: 8853c2e0f8bd7410299c025ea6065658, type: 2}
+  - {fileID: 1241362734132230, guid: 60af95f47a58a4d1d9edcade25d16e22, type: 2}
+  - {fileID: 1739679627705846, guid: dcc8aa936d28443f1a2c1ecdca05d21a, type: 2}
+  - {fileID: 1947277057797906, guid: 880ba4e01d4bf43a8bd8482aae6ad95a, type: 2}
   preFillIntList: 
   preFillMaterialList: []
   preFillObjectList: []
