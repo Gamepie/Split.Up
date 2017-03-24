@@ -161,7 +161,7 @@ GameObject:
   - component: {fileID: 114015024654348658}
   m_Layer: 0
   m_Name: New Score (1)
-  m_TagString: SpwnedObject
+  m_TagString: HSBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -297,7 +297,7 @@ GameObject:
   - component: {fileID: 114702846118007724}
   m_Layer: 0
   m_Name: 'New Score '
-  m_TagString: SpwnedObject
+  m_TagString: HSBar
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
