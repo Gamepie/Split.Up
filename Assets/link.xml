@@ -23,6 +23,7 @@
     <type fullname="Rate_me" preserve="all" />
     <type fullname="particle_effect" preserve="all" />
     <type fullname="Clickbuttons" preserve="all" />
+    <type fullname="AdsManager" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine">
     <type fullname="UnityEngine.GameObject" preserve="all" />

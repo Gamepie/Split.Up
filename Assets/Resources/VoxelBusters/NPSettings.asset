@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
   m_Name: NPSettings
   m_EditorClassIdentifier: 
-  m_lastOpenedDateString: 3/22/2017 12:00:00 AM
+  m_lastOpenedDateString: 3/24/2017 12:00:00 AM
   m_applicationSettings:
     m_supportedFeatures:
       m_usesAddressBook: 0
@@ -99,27 +99,31 @@ MonoBehaviour:
       m_platformIDs:
       - m_platform: 1
         m_value: CgkIyvWdtJMBEAIQAg
-      m_noOfSteps: 0
+      - m_platform: 2
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 1
     - m_globalID: Scored 5
       m_platformIDs:
       - m_platform: 1
         m_value: CgkIyvWdtJMBEAIQAg
-      m_noOfSteps: 0
+      - m_platform: 2
+        m_value: CgkIyvWdtJMBEAIQAg
+      m_noOfSteps: 1
     - m_globalID: Scored 15
       m_platformIDs:
       - m_platform: 1
         m_value: CgkIyvWdtJMBEAIQBA
-      m_noOfSteps: 0
+      m_noOfSteps: 1
     - m_globalID: Scored 50
       m_platformIDs:
       - m_platform: 1
         m_value: 'CgkIyvWdtJMBEAIQBQ '
-      m_noOfSteps: 0
+      m_noOfSteps: 1
     - m_globalID: Scored 100
       m_platformIDs:
       - m_platform: 1
         m_value: 'CgkIyvWdtJMBEAIQBg '
-      m_noOfSteps: 0
+      m_noOfSteps: 1
     m_iOS:
       m_showDefaultAchievementCompletionBanner: 1
     m_android:
