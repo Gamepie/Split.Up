@@ -101,28 +101,44 @@ MonoBehaviour:
         m_value: CgkIyvWdtJMBEAIQAg
       - m_platform: 2
         m_value: CgkIyvWdtJMBEAIQAg
+      - m_platform: 0
+        m_value: com.gamepie.splitup.1stdeath
       m_noOfSteps: 1
     - m_globalID: Scored 5
       m_platformIDs:
       - m_platform: 1
-        m_value: CgkIyvWdtJMBEAIQAg
+        m_value: CgkIyvWdtJMBEAIQAw
       - m_platform: 2
-        m_value: CgkIyvWdtJMBEAIQAg
+        m_value: CgkIyvWdtJMBEAIQAw
+      - m_platform: 0
+        m_value: com.gamepie.splitup.scored5
       m_noOfSteps: 1
     - m_globalID: Scored 15
       m_platformIDs:
       - m_platform: 1
         m_value: CgkIyvWdtJMBEAIQBA
+      - m_platform: 2
+        m_value: CgkIyvWdtJMBEAIQBA
+      - m_platform: 0
+        m_value: com.gamepie.splitup.scored15
       m_noOfSteps: 1
     - m_globalID: Scored 50
       m_platformIDs:
       - m_platform: 1
         m_value: 'CgkIyvWdtJMBEAIQBQ '
+      - m_platform: 2
+        m_value: 'CgkIyvWdtJMBEAIQBQ '
+      - m_platform: 0
+        m_value: com.gamepie.splitup.scored50
       m_noOfSteps: 1
     - m_globalID: Scored 100
       m_platformIDs:
       - m_platform: 1
         m_value: 'CgkIyvWdtJMBEAIQBg '
+      - m_platform: 2
+        m_value: 'CgkIyvWdtJMBEAIQBg '
+      - m_platform: 0
+        m_value: com.gamepie.splitup.scored100
       m_noOfSteps: 1
     m_iOS:
       m_showDefaultAchievementCompletionBanner: 1
