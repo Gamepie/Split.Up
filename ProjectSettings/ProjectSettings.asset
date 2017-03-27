@@ -121,13 +121,13 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.gamepie.splitup
-  bundleVersion: 1.09
+  bundleVersion: 1.1
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
   xboxOneDisableKinectGpuReservation: 0
   protectGraphicsMemory: 0
-  AndroidBundleVersionCode: 9
+  AndroidBundleVersionCode: 10
   AndroidMinSdkVersion: 11
   AndroidPreferredInstallLocation: 1
   aotOptions: 
@@ -195,7 +195,7 @@ PlayerSettings:
   appleDeveloperTeamID: 
   AndroidTargetDevice: 0
   AndroidSplashScreenScale: 0
-  androidSplashScreen: {fileID: 2800000, guid: e7166075c4b22e94d89ba8782ea6ac0b, type: 3}
+  androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: C:/Users/Alexandre/Desktop/Work/Gamepie/Games/Split.Up/key/splitup.keystore
   AndroidKeyaliasName: alias_splitup
   AndroidTVCompatibility: 0

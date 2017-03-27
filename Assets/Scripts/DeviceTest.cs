@@ -24,7 +24,7 @@ namespace HutongGames.PlayMaker.Actions
 				deviceIs.Value = "iOS";
 				Finish();
 			}	
-			if(Application.platform == RuntimePlatform.OSXEditor)
+			if(Application.platform == RuntimePlatform.WindowsEditor || Application.platform == RuntimePlatform.OSXEditor)
 			{
 				deviceIs.Value = "Unity";
 				Finish();
