@@ -14,12 +14,12 @@ PlayerSettings:
   productName: Split Up
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 1, g: 1, b: 1, a: 1}
+  m_SplashScreenBackgroundColor: {r: 0.21826781, g: 0.21826129, b: 0.218265, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 0.5
   m_SplashScreenAnimation: 2
-  m_SplashScreenLogoStyle: 0
+  m_SplashScreenLogoStyle: 1
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 0.196
   m_SplashScreenLogoAnimationZoom: 0
@@ -121,7 +121,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.gamepie.splitup
-  bundleVersion: 0.6.22
+  bundleVersion: 0.6.23
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -135,7 +135,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  iPhoneBuildNumber: 31
+  iPhoneBuildNumber: 32
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0
