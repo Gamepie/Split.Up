@@ -150,6 +150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4062995263931904}
   - component: {fileID: 212443440021489414}
+  - component: {fileID: 60944361795225736}
   m_Layer: 0
   m_Name: G_8
   m_TagString: SpwnedObject
@@ -184,6 +185,7 @@ GameObject:
   - component: {fileID: 4468877298479252}
   - component: {fileID: 212448428805943988}
   - component: {fileID: 114163355276448526}
+  - component: {fileID: 60597396754044448}
   m_Layer: 0
   m_Name: G_8 (2)
   m_TagString: SpwnedObject
@@ -200,6 +202,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4091602127590424}
   - component: {fileID: 212059200340355134}
+  - component: {fileID: 60073226418222186}
   m_Layer: 0
   m_Name: G_Down triangle (1)
   m_TagString: SpwnedObject
@@ -384,6 +387,7 @@ GameObject:
   - component: {fileID: 4966636109498612}
   - component: {fileID: 212935773675246590}
   - component: {fileID: 114270653408113402}
+  - component: {fileID: 60486319678291394}
   m_Layer: 0
   m_Name: G_8 (1)
   m_TagString: SpwnedObject
@@ -472,6 +476,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4557717529735992}
   - component: {fileID: 212975423956733828}
+  - component: {fileID: 60018442879396214}
   m_Layer: 0
   m_Name: G_Down triangle
   m_TagString: SpwnedObject
@@ -505,6 +510,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4698716910952898}
   - component: {fileID: 212370905145198116}
+  - component: {fileID: 60640790430505130}
   m_Layer: 0
   m_Name: G_Losange
   m_TagString: SpwnedObject
@@ -1216,6 +1222,116 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.1484375
+--- !u!60 &60018442879396214
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1800372324421914}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: 0.0017647743, y: -2.3689826}
+      - {x: 2.6809416, y: 2.3359573}
+      - {x: -2.6060393, y: 2.3160694}
+--- !u!60 &60073226418222186
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1330213816477874}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.0089178085, y: -2.3574736}
+      - {x: 2.6417305, y: 2.3152711}
+      - {x: -2.632916, y: 2.3439424}
+--- !u!60 &60486319678291394
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1612085472348904}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
+--- !u!60 &60597396754044448
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1277613710757140}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
+--- !u!60 &60640790430505130
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1815946325410002}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.02734375, y: 1.8398438}
+      - {x: -0.91015625, y: 0.08984375}
+      - {x: -0.91015625, y: -0.03515625}
+      - {x: -0.04296875, y: -1.8398438}
+      - {x: 0.04296875, y: -1.8398438}
+      - {x: 0.91015625, y: -0.04296875}
+      - {x: 0.91015625, y: 0.11328125}
+      - {x: 0.02734375, y: 1.8398438}
+--- !u!60 &60944361795225736
+PolygonCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1199539543406742}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_Offset: {x: 0, y: 0}
+  m_Points:
+    m_Paths:
+    - - {x: -0.5703125, y: 0.12890625}
+      - {x: -0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: -0.12890625}
+      - {x: 0.5703125, y: 0.12890625}
 --- !u!61 &61455982769336228
 BoxCollider2D:
   m_ObjectHideFlags: 1
@@ -1607,7 +1723,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2214,7 +2330,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2494,7 +2610,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -2808,7 +2924,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0

@@ -66,6 +66,9 @@ TagManager:
   - name: 4
     uniqueID: 2819981613
     locked: 0
+  - name: Limits
+    uniqueID: 3861930443
+    locked: 0
   - name: Menu Pause 1
     uniqueID: 199799495
     locked: 0
