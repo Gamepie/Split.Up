@@ -14,12 +14,12 @@ PlayerSettings:
   productName: Split Up
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
-  m_SplashScreenBackgroundColor: {r: 0.21826781, g: 0.21826129, b: 0.218265, a: 1}
+  m_SplashScreenBackgroundColor: {r: 1, g: 0.99997437, b: 0.9999913, a: 1}
   m_ShowUnitySplashScreen: 1
   m_ShowUnitySplashLogo: 1
   m_SplashScreenOverlayOpacity: 0.5
   m_SplashScreenAnimation: 2
-  m_SplashScreenLogoStyle: 1
+  m_SplashScreenLogoStyle: 0
   m_SplashScreenDrawMode: 0
   m_SplashScreenBackgroundAnimationZoom: 0.196
   m_SplashScreenLogoAnimationZoom: 0
