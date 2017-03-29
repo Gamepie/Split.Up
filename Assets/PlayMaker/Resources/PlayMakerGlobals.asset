@@ -116,7 +116,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
+      value: 1
     - useVariable: 1
       name: launched
       tooltip: 
@@ -158,7 +158,7 @@ MonoBehaviour:
       tooltip: 
       showInInspector: 0
       networkSync: 0
-      value: 0
+      value: 1
     stringVariables:
     - useVariable: 1
       name: Achievedwhat?
@@ -251,6 +251,12 @@ MonoBehaviour:
       networkSync: 0
       value: {fileID: 0}
     - useVariable: 1
+      name: AudioObj
+      tooltip: 
+      showInInspector: 0
+      networkSync: 0
+      value: {fileID: 0}
+    - useVariable: 1
       name: BG Target Var
       tooltip: 
       showInInspector: 0
@@ -318,7 +324,7 @@ MonoBehaviour:
     enumVariables: []
     categories:
     - 
-    variableCategoryIDs: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+    variableCategoryIDs: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
   events:
   - 'State: Game'
   - Split & Play
@@ -341,3 +347,13 @@ MonoBehaviour:
   - Notvalidated
   - isbought
   - purchased
+  - Trigger Pause
+  - GPGSIN
+  - Music Off
+  - Music On
+  - Sound Off
+  - Sound On
+  - GPGS Outted
+  - no sounds
+  - play sound
+  - Sound ON
