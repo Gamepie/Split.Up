@@ -10,8 +10,8 @@ using UnityEngine.SceneManagement;
 namespace VoxelBusters.NativePlugins {
 public class Buyiap : MonoBehaviour {
 		public PlayMakerFSM theFSM;
-		public PlayMakerFSM buttonFSM;
-		public PlayMakerFSM Restoreobj;
+		private PlayMakerFSM buttonFSM;
+		private PlayMakerFSM Restoreobj;
 		public bool Adsbought = false;
 		private PlayMakerFSM gonoads;
 		private PlayMakerFSM gorestore;
@@ -84,8 +84,12 @@ private void OnDisable ()
 			if (NPBinding.Billing.IsProductPurchased (_product))
 			{
 				// Show alert message that item is already purchased
-				buttonFSM.SendEvent ("Zaeubri");
 				Scene scene = SceneManager.GetActiveScene ();
+				if (scene.name == "Menu") {
+					GameObject noadsbutt = GameObject.FindGameObjectWithTag ("noadsbutt");
+					PlayMakerFSM buttonFSM = PlayMakerFSM.FindFsmOnGameObject (noadsbutt, "FSM");
+					buttonFSM.SendEvent ("Zaeubri");
+				}
 				if (scene.name == "Game") {
 					GameObject noadsgo = GameObject.FindGameObjectWithTag ("noads_go");
 					PlayMakerFSM gonoads = PlayMakerFSM.FindFsmOnGameObject (noadsgo, "FSM");
@@ -157,7 +161,11 @@ private void OnDisable ()
 
 						Adsbought = true;
 						theFSM.FsmVariables.GetFsmBool ("Adsboughtfsm").Value = Adsbought;
-						Restoreobj.SendEvent ("Restored");
+						if (scene.name == "Menu") {
+							GameObject restbutt = GameObject.FindGameObjectWithTag ("restbutt");
+							PlayMakerFSM Restoreobj = PlayMakerFSM.FindFsmOnGameObject (restbutt, "FSM");
+							Restoreobj.SendEvent ("Restored");
+						}
 					} else if (_eachTransaction.VerificationState == eBillingTransactionVerificationState.FAILED) {
 						//something went wrong!
 						Scene scene = SceneManager.GetActiveScene ();
