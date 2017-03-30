@@ -20,7 +20,7 @@ namespace HutongGames.PlayMaker.Actions
 
 			private Achievement	m_achievement;
 			public string identifier;
-			public	FsmString	identifieri;
+
 
 
 			public	FsmString	dateTimeFormat;
@@ -40,7 +40,11 @@ namespace HutongGames.PlayMaker.Actions
 			{
 
 				m_achievement	= NPBinding.GameServices.CreateAchievementWithGlobalID(identifier);
-				m_achievement.ReportProgress (OnReportProgressFinished);
+
+				// Update properties
+				//m_achievement.PercentageCompleted	= PROGRESS_PERCENTAGE;
+
+				//m_achievement.ReportProgress (OnReportProgressFinished);
 				NPBinding.GameServices.ReportProgressWithGlobalID (identifier, PROGRESS_PERCENTAGE, OnReportProgressFinished);
 
 			}
@@ -49,6 +53,7 @@ namespace HutongGames.PlayMaker.Actions
 
 				if (_success)
 				{
+					
 					// Update properties
 					completed.Value				= m_achievement.Completed;
 					lastReportedDate.Value		= m_achievement.LastReportedDate.ToString(dateTimeFormat.Value);
