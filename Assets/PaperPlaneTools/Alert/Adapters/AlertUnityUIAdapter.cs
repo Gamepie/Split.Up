@@ -52,7 +52,13 @@ namespace PaperPlaneTools {
 		void IAlertPlatformAdapter.Show(Alert alert) 
 		{
 			//Move to front
+			if (this != null) {
+				Debug.Log ("nullitis");
+			} else {
+				Debug.Log ("its null");
+			}
 			this.transform.SetAsLastSibling ();
+			Debug.Log ("test", this);
 
 			//Set text
 			this.titleText.gameObject.SetActive (alert.Title != null);
