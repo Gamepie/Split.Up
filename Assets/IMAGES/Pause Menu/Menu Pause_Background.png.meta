@@ -86,7 +86,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: Background
+  spritePackingTag: Obstacle
   userData: 
   assetBundleName: 
   assetBundleVariant: 

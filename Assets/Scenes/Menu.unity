@@ -542,7 +542,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -634,7 +634,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1116153993
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94486d373dd8e4b37a5a50bfe0b8aa2f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9fd6433abcdc342308aee8d1aa54b548, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -645,7 +645,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 11722174}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1917444291}
@@ -765,7 +765,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 22448924, guid: 76dfb74bbf619482e8c11e5c510e7a00, type: 2}
       propertyPath: m_SizeDelta.x
-      value: 189.25221
+      value: 189.67184
       objectReference: {fileID: 0}
     - target: {fileID: 22448924, guid: 76dfb74bbf619482e8c11e5c510e7a00, type: 2}
       propertyPath: m_SizeDelta.y
@@ -1044,6 +1044,11 @@ Prefab:
       propertyPath: m_PreferredWidth
       value: -1
       objectReference: {fileID: 0}
+    - target: {fileID: 11438962, guid: 76dfb74bbf619482e8c11e5c510e7a00, type: 2}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 64a18319995d545078192cbba53a925c,
+        type: 3}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 76dfb74bbf619482e8c11e5c510e7a00, type: 2}
   m_IsPrefabParent: 0
@@ -4708,7 +4713,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -7764,7 +7769,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -13243,7 +13248,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -20131,7 +20136,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -25057,7 +25062,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1917444290}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.71, y: 3.65, z: 0}
+  m_LocalPosition: {x: 0, y: -5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 11722176}
@@ -25108,7 +25113,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 164827863
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 94221b9a464ef4c0e80b70584cfef295, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 82636420f692244f88359d875d977cf3, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
