@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 345db78d1cf014c6f97cc5fe231f0984
-timeCreated: 1490624851
+guid: 9fd6433abcdc342308aee8d1aa54b548
+timeCreated: 1490794239
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -86,7 +86,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: 
+  spritePackingTag: Obstacle
   userData: 
   assetBundleName: 
   assetBundleVariant: 
