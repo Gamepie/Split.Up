@@ -9983,13 +9983,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: menusound
+          value: menumusic
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: menusound.txt
+          value: menumusic.txt
         - useVariable: 0
           name: 
           tooltip: 
@@ -10008,7 +10008,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -10020,7 +10020,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -10538,8 +10538,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 484
-        y: 170
+        x: 473.60156
+        y: 108.828125
         width: 100
         height: 32
       isBreakpoint: 0
@@ -10708,8 +10708,8 @@ MonoBehaviour:
       colorIndex: 0
       position:
         serializedVersion: 2
-        x: 454.0625
-        y: 242.50781
+        x: 468.96875
+        y: 222.375
         width: 100
         height: 48
       isBreakpoint: 0
@@ -25613,13 +25613,13 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: menusound
+          value: menumusic
         - useVariable: 0
           name: 
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: menusound.txt
+          value: menumusic.txt
         - useVariable: 0
           name: 
           tooltip: 
@@ -25638,7 +25638,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 
@@ -25650,7 +25650,7 @@ MonoBehaviour:
           tooltip: 
           showInInspector: 0
           networkSync: 0
-          value: 0
+          value: 1
         - useVariable: 0
           name: 
           tooltip: 

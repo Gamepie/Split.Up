@@ -13,7 +13,7 @@
 
 // Constants
 const NSString *bundleIdentifier	= @"com.gamepie.splitup";
-const NSString *bundleVersion		= @"33";
+const NSString *bundleVersion		= @"34";
 
 @interface ReceiptVerificationManager ()
 
