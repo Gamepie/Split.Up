@@ -12,6 +12,11 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 	{
 		#region Fields
 
+		[ActionSection("Setup")]
+
+		[Tooltip("Bool specifies whether application needs access to email address information of the logged-in user.")]
+		public 	FsmBool 	requiresEmailAccess;
+
 		[ActionSection("Results")]
 
 		[Tooltip("The description of the problem that occurred.")]
@@ -31,6 +36,9 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 
 		public override void Reset ()
 		{
+			// Setup properties
+			requiresEmailAccess	= new FsmBool();
+
 			// Results properties
 			error			= new FsmString {
 				UseVariable	= true
@@ -44,7 +52,7 @@ namespace VoxelBusters.NativePlugins.PlayMaker
 		public override void OnEnter ()
 		{
 #if USES_TWITTER
-			NPBinding.Twitter.Login(OnLoginFinished);
+			NPBinding.Twitter.Login(requiresEmailAccess.Value, OnLoginFinished);
 #endif
 		}
 		
