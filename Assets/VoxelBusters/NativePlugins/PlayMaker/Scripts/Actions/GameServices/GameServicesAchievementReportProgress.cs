@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using HutongGames.PlayMaker;
 using HutongGames.PlayMaker.Actions;
 using VoxelBusters.NativePlugins.Internal;
-using VoxelBusters.NativePlugins.PlayMaker;
 using Tooltip	= HutongGames.PlayMaker.TooltipAttribute;
 
 namespace VoxelBusters.NativePlugins.PlayMaker

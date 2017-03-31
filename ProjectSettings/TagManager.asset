@@ -15,6 +15,15 @@ TagManager:
   - noads_go
   - restore_go
   - audio source
+  - noadsbutt
+  - restbutt
+  - ratebutt
+  - playbutt
+  - menumusicoff
+  - menumusicon
+  - menusoundoff
+  - menusoundon
+  - Neutral
   layers:
   - Default
   - TransparentFX
