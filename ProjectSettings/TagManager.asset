@@ -23,6 +23,7 @@ TagManager:
   - menumusicon
   - menusoundoff
   - menusoundon
+  - Neutral
   layers:
   - Default
   - TransparentFX
