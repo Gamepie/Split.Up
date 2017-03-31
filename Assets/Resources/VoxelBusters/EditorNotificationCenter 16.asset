@@ -9,7 +9,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 328e3e4ccb92f4170af5127ef6cccdc1, type: 3}
-  m_Name: EditorNotificationCenter 11
+  m_Name: EditorNotificationCenter 16
   m_EditorClassIdentifier: 
   m_supportedNotificationTypes: 0
   m_isRegisteredForRemoteNotifications: 0
