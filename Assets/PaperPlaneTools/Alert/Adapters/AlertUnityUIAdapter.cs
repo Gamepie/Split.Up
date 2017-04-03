@@ -53,11 +53,12 @@ namespace PaperPlaneTools {
 		{
 			//Move to front
 			if (this != null) {
-				Debug.Log ("nullitis");
+				Debug.Log ("nullitisnt");
+				this.transform.SetAsLastSibling ();
 			} else {
 				Debug.Log ("its null");
 			}
-			this.transform.SetAsLastSibling ();
+
 			Debug.Log ("test", this);
 
 			//Set text

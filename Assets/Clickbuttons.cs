@@ -29,10 +29,10 @@ public class Clickbuttons : MonoBehaviour {
 		play = Play.GetComponent (typeof(BoxCollider2D)) as BoxCollider2D;
 		settings = Settings.GetComponent (typeof(BoxCollider2D)) as BoxCollider2D;
 		noads = Noads.GetComponent (typeof(BoxCollider2D)) as BoxCollider2D;
-		bu = rateobj.GetComponent (typeof(Button)) as Button;
+//		bu = rateobj.GetComponent (typeof(Button)) as Button;
 
 
-		bu.onClick.AddListener (fetchobj);
+//		bu.onClick.AddListener (fetchobj);
 	}
 
 	// Update is called once per frame
@@ -75,8 +75,9 @@ public class Clickbuttons : MonoBehaviour {
 		replay = Replay.GetComponent (typeof(BoxCollider2D)) as BoxCollider2D;
 		No_Ads = GameObject.Find ("No Ads");
 		no_ads = No_Ads.GetComponent (typeof(BoxCollider2D)) as BoxCollider2D;
-		rateobj = GameObject.FindGameObjectWithTag ("Neutral");
+		rateobj = GameObject.FindGameObjectWithTag ("Rate Manager");
 		bu = rateobj.GetComponent (typeof(Button)) as Button;
+
 	}
 
 }
