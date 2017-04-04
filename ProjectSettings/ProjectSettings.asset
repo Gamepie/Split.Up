@@ -121,7 +121,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleIdentifier: com.gamepie.splitup
-  bundleVersion: 1.11
+  bundleVersion: 0.6.28
   preloadedAssets: []
   metroInputSource: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -135,7 +135,7 @@ PlayerSettings:
   stripEngineCode: 1
   iPhoneStrippingLevel: 0
   iPhoneScriptCallOptimization: 0
-  iPhoneBuildNumber: 33
+  iPhoneBuildNumber: 37
   ForceInternetPermission: 0
   ForceSDCardPermission: 0
   CreateWallpaper: 0

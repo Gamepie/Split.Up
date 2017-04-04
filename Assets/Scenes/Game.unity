@@ -6112,13 +6112,21 @@ MonoBehaviour:
         x: 584.5469
         y: 194.15625
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
       transitions:
       - fsmEvent:
           name: 153
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameOver
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: If failed
           isSystemEvent: 0
           isGlobal: 0
         toState: GameOver
@@ -6183,7 +6191,7 @@ MonoBehaviour:
         stringParams:
         - 1st Death
         - 153
-        - 
+        - If failed
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
@@ -6207,6 +6215,12 @@ MonoBehaviour:
     - name: 1
       isSystemEvent: 0
       isGlobal: 0
+    - name: 153
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: If failed
+      isSystemEvent: 0
+      isGlobal: 0
     - name: State Death Feedback
       isSystemEvent: 0
       isGlobal: 0
@@ -6217,9 +6231,6 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: Update Highscore
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: 153
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -8697,7 +8708,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 211690268
+  randomSeed: 1194355513
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -23782,7 +23793,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -292515298
+  randomSeed: 388831676
   InitialModule:
     serializedVersion: 3
     enabled: 1
