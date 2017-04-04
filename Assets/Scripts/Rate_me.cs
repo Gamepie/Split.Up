@@ -36,6 +36,7 @@ public class Rate_me : MonoBehaviour {
 		public bool clearOnStart = false;
 		
 		public bool logDebugMessages = true;
+	private GameObject CS;
 		
 		
 		
@@ -90,6 +91,7 @@ public class Rate_me : MonoBehaviour {
 	void Update () {
 		
 	}
+		
 
 	void rate () {
 		RateBox.Instance.ForceShow ();
