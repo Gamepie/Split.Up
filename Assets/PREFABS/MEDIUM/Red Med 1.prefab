@@ -915,10 +915,10 @@ PolygonCollider2D:
   m_Offset: {x: 0, y: 0}
   m_Points:
     m_Paths:
-    - - {x: -2.9296875, y: 0.12890625}
-      - {x: -2.9296875, y: -0.12890625}
-      - {x: 2.9296875, y: -0.12890625}
-      - {x: 2.9296875, y: 0.12890625}
+    - - {x: -1.6289062, y: 0.12890625}
+      - {x: -1.6289062, y: -0.12890625}
+      - {x: 1.6289062, y: -0.12890625}
+      - {x: 1.6289062, y: 0.12890625}
 --- !u!60 &60000010543587928
 PolygonCollider2D:
   m_ObjectHideFlags: 1
@@ -7262,7 +7262,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 734516f9e99f1477886dc8539add3e54, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c23f0271f98b14b14af5427bf136feab, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -7647,7 +7647,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 1923212793
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 3feb4ba7b39b1433fb13969a773dc206, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d5cab5720ab6429b996bf0996970438, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
