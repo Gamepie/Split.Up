@@ -11,7 +11,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89aa10cdd49e949efad7c366f36fa247, type: 3}
   m_Name: NPSettings
   m_EditorClassIdentifier: 
-  m_lastOpenedDateString: 3/24/2017 12:00:00 AM
+  m_lastOpenedDateString: 03/31/2017 00:00:00
   m_applicationSettings:
     m_supportedFeatures:
       m_usesAddressBook: 0
@@ -100,7 +100,7 @@ MonoBehaviour:
       - m_platform: 1
         m_value: CgkIyvWdtJMBEAIQAg
       - m_platform: 2
-        m_value: CgkIyvWdtJMBEAIQAg
+        m_value: QAgIyvWdtJMBEAIQAg
       - m_platform: 0
         m_value: com.gamepie.splitup.1stdeath
       m_noOfSteps: 1

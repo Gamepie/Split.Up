@@ -6120,7 +6120,7 @@ MonoBehaviour:
         x: 444.375
         y: 177.0625
         width: 100
-        height: 32
+        height: 48
       isBreakpoint: 0
       isSequence: 0
       hideUnused: 0
@@ -6130,6 +6130,14 @@ MonoBehaviour:
           isSystemEvent: 0
           isGlobal: 0
         toState: State 3
+        linkStyle: 0
+        linkConstraint: 0
+        colorIndex: 0
+      - fsmEvent:
+          name: If failed
+          isSystemEvent: 0
+          isGlobal: 0
+        toState: GameOver
         linkStyle: 0
         linkConstraint: 0
         colorIndex: 0
@@ -6191,7 +6199,7 @@ MonoBehaviour:
         stringParams:
         - 1st Death
         - 153
-        - 
+        - If failed
         byteData: 
         arrayParamSizes: 
         arrayParamTypes: []
@@ -6267,6 +6275,12 @@ MonoBehaviour:
     - name: 1
       isSystemEvent: 0
       isGlobal: 0
+    - name: 153
+      isSystemEvent: 0
+      isGlobal: 0
+    - name: If failed
+      isSystemEvent: 0
+      isGlobal: 0
     - name: State Death Feedback
       isSystemEvent: 0
       isGlobal: 0
@@ -6277,9 +6291,6 @@ MonoBehaviour:
       isSystemEvent: 0
       isGlobal: 0
     - name: Update Highscore
-      isSystemEvent: 0
-      isGlobal: 0
-    - name: 153
       isSystemEvent: 0
       isGlobal: 0
     globalTransitions: []
@@ -6329,7 +6340,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -8757,7 +8768,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: 211690268
+  randomSeed: 1194355513
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -19752,7 +19763,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
@@ -23767,7 +23778,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -292515298
+  randomSeed: 388831676
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -29837,7 +29848,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 1264639615
+  m_SortingLayerID: 1116153993
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 8f1f53734d539416fb84b7b5b16f1a56, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -40760,7 +40771,7 @@ MonoBehaviour:
     locked: 0
     manualUpdate: 0
     keepDelayedEventsOnStateExit: 0
-    preprocessed: 0
+    preprocessed: 1
     ExposedEvents: []
     RestartOnEnable: 1
     EnableDebugFlow: 0
